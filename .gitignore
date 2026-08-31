@@ -1,0 +1,23 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# Credentials and local certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local builds, logs, and publishing artifacts
+coverage
+*.log
+npm-debug.log*
+kpf-build
+kpf-output
+artifact
+*.epub
+*.kpf
